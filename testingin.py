@@ -1,5 +1,7 @@
-git rm --cached .testingin.py
+from importlib import import_module
+my_module = import_module("connector.mysql")
 
+import mysql.connector
 import streamlit as st 
 import pandas as pd
 import numpy as np
@@ -10,7 +12,7 @@ from fbprophet.plot import plot_plotly
 from fbprophet.plot import plot_components_plotly
 from  fbprophet.diagnostics import cross_validation
 from  fbprophet.diagnostics import performance_metrics
-import mysql.connector
+
 
 
 st.title("Predictive Analytics")
