@@ -1,5 +1,5 @@
 import sys
-sys.path['C:\Users\jeric\anaconda3\Lib\site-packages\mysql\connector']
+sys.path
 
 import mysql.connector
 
