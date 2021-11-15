@@ -1,7 +1,8 @@
-from importlib import import_module
-my_module = import_module("mysql.connector")
+import sys
+sys.path['', 'C:\Users\jeric\anaconda3\Lib\site-packages\mysql\connector']
 
 import mysql.connector
+
 import streamlit as st 
 import pandas as pd
 import numpy as np
