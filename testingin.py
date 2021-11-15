@@ -1,5 +1,5 @@
 from importlib import import_module
-my_module = import_module("connector.mysql")
+my_module = import_module("mysql.connector")
 
 import mysql.connector
 import streamlit as st 
