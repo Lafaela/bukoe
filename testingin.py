@@ -1,5 +1,4 @@
 import streamlit as st 
-import mysql.connector
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from fbprophet.plot import plot_components_plotly
@@ -8,6 +7,7 @@ from  fbprophet.diagnostics import performance_metrics
 from plotly import graph_objs as go
 import pandas as pd
 import numpy as np
+import mysql.connector
 
 
 st.title("Predictive Analytics")
