@@ -1,5 +1,5 @@
 import sys
-sys.path
+sys.path.append
 
 import mysql.connector
 
